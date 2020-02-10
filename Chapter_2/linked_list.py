@@ -34,6 +34,8 @@ class LinkedList:
         new_node.set_next(self.head)
         self.head = new_node
 
+        return new_node
+
     def size(self):
         """
         Return the length/size of the list
@@ -101,7 +103,7 @@ class LinkedList:
         current = self.head
         previous = None
         pos = 0
-        if position is 0:
+        if position == 0:
             self.add(item)
         else:
             new_node = Node(item)
@@ -185,7 +187,7 @@ class LinkedList:
         else:
             previous.set_next(new_node)
 
-    def print_list(self):
+    def print_all(self):
         """
         Print the list
         :return:
@@ -197,10 +199,10 @@ class LinkedList:
             current = current.get_next()
 
 
-ll = LinkedList()
-ll.add('l')
-ll.add('H')
-ll.insert(1, 'e')
-ll.append('l')
-ll.append('o')
-ll.print_list()
+# ll = LinkedList()
+# ll.add('l')
+# ll.add('H')
+# ll.insert(1, 'e')
+# ll.append('l')
+# ll.append('o')
+# ll.print_all()

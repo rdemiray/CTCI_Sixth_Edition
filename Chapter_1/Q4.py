@@ -13,7 +13,7 @@ def is_palindrome_permutation(test_string):
     test_string = test_string.replace(" ", "")
     test_string = test_string.lower()
 
-    # Fill in dictionary with keys being chars and values being num of occurences
+    # Fill in dictionary with keys being chars and values being num of occurrences
     palindrome_dict = {}
 
     for item in test_string:
