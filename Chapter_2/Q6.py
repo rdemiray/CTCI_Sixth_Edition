@@ -42,12 +42,21 @@ def check_if_palindrome_doubly_linked_list(given_linked_list):
 
 
 class TestClass(unittest.TestCase):
-    test_linked_list = LinkedList()
-    test_linked_list.add("a")
-    test_linked_list.add("b")
-    test_linked_list.add("c")
-    test_linked_list.add("b")
-    test_linked_list.add("a")
+    test_linked_list_true = LinkedList()
+    test_linked_list_true.add("a")
+    test_linked_list_true.add("b")
+    test_linked_list_true.add("c")
+    test_linked_list_true.add("b")
+    test_linked_list_true.add("a")
 
-    check_if_palindrome(test_linked_list)
-    # TODO: Missing test implementation
+    test_ll_false = LinkedList()
+    test_ll_false.add("a")
+    test_ll_false.add("b")
+    test_ll_false.add("a")
+    test_ll_false.add("b")
+
+    def test_method(self):
+        self.assertTrue(check_if_palindrome(self.test_linked_list_true))
+
+        self.assertFalse(check_if_palindrome(self.test_ll_false))
+
