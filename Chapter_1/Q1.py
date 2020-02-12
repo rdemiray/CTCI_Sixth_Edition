@@ -42,7 +42,15 @@ def is_unique_3(given_string):
     """
     DO not use "set" data structure of Python
     """
-    pass
+    unique_char_list = []
+    for item in given_string:
+        if item not in unique_char_list:
+            unique_char_list.append(item)
+        else:
+            # This char exists in the unique list
+            return False
+
+    return True
 
 
 class Test(unittest.TestCase):
@@ -51,6 +59,15 @@ class Test(unittest.TestCase):
 
     test_data_true_2 = ['abcd', 's4fad', '']
     test_data_false_2 = ['23ds2', 'hb 627jh=j ()', "AaBbCc"]
+
+    def test_whether_unique_3(self):
+        # True check
+        for item in self.test_data_true_1:
+            self.assertTrue(is_unique_3(item))
+
+        # False check
+        for item in self.test_data_false_1:
+            self.assertFalse(is_unique_3(item))
 
     def test_whether_unique_1(self):
         # True check

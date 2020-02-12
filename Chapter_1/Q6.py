@@ -25,15 +25,20 @@ def compress_string(given_string):
     compressed_string += given_string[i] + str(counter)
 
     print("Compressed string is: {}".format(compressed_string))
-    return compressed_string
+
+    if len(compressed_string) < len(given_string):
+        return compressed_string
+    else:
+        return given_string
 
 
 class TestClass(unittest.TestCase):
 
-    test_data_positive = [("aaaabbbbbcccdddee", "a4b5c3d3e2"), ]
+    test_data_positive = [("aaaabbbbbcccdddee", "a4b5c3d3e2"),
+                          ("aaaabbbbbcccddde", "a4b5c3d3e1"),
+                          ("abcdef", "abcdef"),
+                          ]
 
-    def test_methodddddd(self):
-        print("xx")
+    def test_method(self):
         for item in self.test_data_positive:
             self.assertEqual(compress_string(item[0]), item[1])
-
