@@ -69,6 +69,10 @@ class TestClass(unittest.TestCase):
     #         current_actual_node = current_actual_node.next
 
 
+if __name__ == "__main__":
+    unittest.main()
+
+
 
 
 

@@ -22,3 +22,7 @@ class TestClass(unittest.TestCase):
     remove_node_in_the_middle(middle_node_to_be_removed)
     test_linked_list.print_all()
 
+
+if __name__ == "__main__":
+    unittest.main()
+

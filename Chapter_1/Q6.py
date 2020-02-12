@@ -42,3 +42,7 @@ class TestClass(unittest.TestCase):
     def test_method(self):
         for item in self.test_data_positive:
             self.assertEqual(compress_string(item[0]), item[1])
+
+
+if __name__ == "__main__":
+    unittest.main()

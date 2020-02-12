@@ -60,3 +60,7 @@ class TestClass(unittest.TestCase):
 
         self.assertFalse(check_if_palindrome(self.test_ll_false))
 
+
+if __name__ == "__main__":
+    unittest.main()
+
