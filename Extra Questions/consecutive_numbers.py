@@ -69,7 +69,7 @@ def max_possible_consecutive_ones(given_string):
             counter += 1
 
     for i in range(counter+1):
-        current_max = find_max_consecutive_ones(flip_ith_occurence_of_zero(given_string, i+1))
+        current_max = find_max_consecutive_ones(flip_ith_occurrence_of_zero(given_string, i + 1))
 
         if current_max > global_max:
             global_max = current_max
@@ -77,7 +77,7 @@ def max_possible_consecutive_ones(given_string):
     return global_max
 
 
-def flip_ith_occurence_of_zero(given_string, index):
+def flip_ith_occurrence_of_zero(given_string, index):
     """
 
     :param given_string:
