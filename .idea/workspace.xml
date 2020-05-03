@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08aeed3c-8f78-4b40-bc73-cbce6f2d29d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter_16/Q1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter_2/Q3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter_2/Q6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extra Questions/binary_to_decimal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extra Questions/deficient_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extra Questions/kaprekar_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extra Questions/organized_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extra Questions/parking_lot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_1/Q4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_1/Q4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2/LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_2/linked_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_2/Q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_2/Q1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +35,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for Q6.TestClass">
-    <configuration name="LinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.deficient_number">
+    <configuration name="binary_to_decimal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CTCI_Sixth_Edition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -45,11 +44,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Extra Questions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_2/linked_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Extra Questions/binary_to_decimal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -58,69 +57,97 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Q1.TestClass" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="deficient_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CTCI_Sixth_Edition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Extra Questions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Q1.TestClass&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Extra Questions/deficient_number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Q2.Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="kaprekar_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CTCI_Sixth_Edition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Extra Questions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Q2.Test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Extra Questions/kaprekar_numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Q3.TestClass" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="organized_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CTCI_Sixth_Edition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Extra Questions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Q3.TestClass&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Extra Questions/organized_numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Q6.TestClass" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="parking_lot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CTCI_Sixth_Edition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Extra Questions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Q6.TestClass&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Extra Questions/parking_lot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for Q6.TestClass" />
-        <item itemvalue="Python tests.Unittests for Q3.TestClass" />
-        <item itemvalue="Python tests.Unittests for Q1.TestClass" />
-        <item itemvalue="Python.LinkedList" />
-        <item itemvalue="Python tests.Unittests for Q2.Test" />
+        <item itemvalue="Python.deficient_number" />
+        <item itemvalue="Python.binary_to_decimal" />
+        <item itemvalue="Python.parking_lot" />
+        <item itemvalue="Python.kaprekar_numbers" />
+        <item itemvalue="Python.organized_numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580297080387</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="More Linked List solutions...">
+      <created>1581309973259</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581309973259</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update...">
+      <created>1581482740583</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581482740583</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,61 +244,71 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Chapter 2, Question1 placeholder created..." />
     <MESSAGE value="Chapter 1, Question2 has been solved in another way..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 1, Question2 has been solved in another way..." />
+    <MESSAGE value="More Linked List solutions..." />
+    <MESSAGE value="Update..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update..." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="603" y="119" key="CommitChangelistDialog2" timestamp="1580297080291">
+    <state x="850" y="227" key="#xdebugger.evaluate" timestamp="1588478090500">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
-    <state x="603" y="119" key="CommitChangelistDialog2/0.23.1920.987@0.23.1920.987" timestamp="1580297080291" />
+    <state x="850" y="227" key="#xdebugger.evaluate/0.23.1920.987@0.23.1920.987" timestamp="1588478090500" />
+    <state x="603" y="119" width="1095" height="869" key="CommitChangelistDialog2" timestamp="1581482740478">
+      <screen x="0" y="23" width="1920" height="987" />
+    </state>
+    <state x="603" y="119" width="1095" height="869" key="CommitChangelistDialog2/0.23.1920.987@0.23.1920.987" timestamp="1581482740478" />
     <state x="192" y="111" key="DiffContextDialog" timestamp="1580297056006">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
     <state x="192" y="111" key="DiffContextDialog/0.23.1920.987@0.23.1920.987" timestamp="1580297056006" />
-    <state width="1899" height="364" key="GridCell.Tab.0.bottom" timestamp="1581309363129">
+    <state width="1899" height="278" key="GridCell.Tab.0.bottom" timestamp="1588481129871">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
-    <state width="1899" height="364" key="GridCell.Tab.0.bottom/0.23.1920.987@0.23.1920.987" timestamp="1581309363129" />
-    <state width="1899" height="364" key="GridCell.Tab.0.center" timestamp="1581309363129">
+    <state width="1899" height="278" key="GridCell.Tab.0.bottom/0.23.1920.987@0.23.1920.987" timestamp="1588481129871" />
+    <state width="1899" height="278" key="GridCell.Tab.0.center" timestamp="1588481129870">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
-    <state width="1899" height="364" key="GridCell.Tab.0.center/0.23.1920.987@0.23.1920.987" timestamp="1581309363129" />
-    <state width="1899" height="364" key="GridCell.Tab.0.left" timestamp="1581309363128">
+    <state width="1899" height="278" key="GridCell.Tab.0.center/0.23.1920.987@0.23.1920.987" timestamp="1588481129870" />
+    <state width="1899" height="278" key="GridCell.Tab.0.left" timestamp="1588481129870">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
-    <state width="1899" height="364" key="GridCell.Tab.0.left/0.23.1920.987@0.23.1920.987" timestamp="1581309363128" />
-    <state width="1899" height="364" key="GridCell.Tab.0.right" timestamp="1581309363129">
+    <state width="1899" height="278" key="GridCell.Tab.0.left/0.23.1920.987@0.23.1920.987" timestamp="1588481129870" />
+    <state width="1899" height="278" key="GridCell.Tab.0.right" timestamp="1588481129871">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
-    <state width="1899" height="364" key="GridCell.Tab.0.right/0.23.1920.987@0.23.1920.987" timestamp="1581309363129" />
-    <state width="1899" height="364" key="GridCell.Tab.1.bottom" timestamp="1581309363560">
+    <state width="1899" height="278" key="GridCell.Tab.0.right/0.23.1920.987@0.23.1920.987" timestamp="1588481129871" />
+    <state width="1899" height="151" key="GridCell.Tab.1.bottom" timestamp="1588480109959">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
-    <state width="1899" height="364" key="GridCell.Tab.1.bottom/0.23.1920.987@0.23.1920.987" timestamp="1581309363560" />
-    <state width="1899" height="364" key="GridCell.Tab.1.center" timestamp="1581309363559">
+    <state width="1899" height="151" key="GridCell.Tab.1.bottom/0.23.1920.987@0.23.1920.987" timestamp="1588480109959" />
+    <state width="1899" height="151" key="GridCell.Tab.1.center" timestamp="1588480109959">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
-    <state width="1899" height="364" key="GridCell.Tab.1.center/0.23.1920.987@0.23.1920.987" timestamp="1581309363559" />
-    <state width="1899" height="364" key="GridCell.Tab.1.left" timestamp="1581309363559">
+    <state width="1899" height="151" key="GridCell.Tab.1.center/0.23.1920.987@0.23.1920.987" timestamp="1588480109959" />
+    <state width="1899" height="151" key="GridCell.Tab.1.left" timestamp="1588480109959">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
-    <state width="1899" height="364" key="GridCell.Tab.1.left/0.23.1920.987@0.23.1920.987" timestamp="1581309363559" />
-    <state width="1899" height="364" key="GridCell.Tab.1.right" timestamp="1581309363560">
+    <state width="1899" height="151" key="GridCell.Tab.1.left/0.23.1920.987@0.23.1920.987" timestamp="1588480109959" />
+    <state width="1899" height="151" key="GridCell.Tab.1.right" timestamp="1588480109959">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
-    <state width="1899" height="364" key="GridCell.Tab.1.right/0.23.1920.987@0.23.1920.987" timestamp="1581309363560" />
-    <state x="560" y="256" key="Vcs.Push.Dialog.v2" timestamp="1580297083005">
+    <state width="1899" height="151" key="GridCell.Tab.1.right/0.23.1920.987@0.23.1920.987" timestamp="1588480109959" />
+    <state x="560" y="256" key="Vcs.Push.Dialog.v2" timestamp="1581482742096">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
-    <state x="560" y="256" key="Vcs.Push.Dialog.v2/0.23.1920.987@0.23.1920.987" timestamp="1580297083005" />
-    <state x="653" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1581288477140">
+    <state x="560" y="256" key="Vcs.Push.Dialog.v2/0.23.1920.987@0.23.1920.987" timestamp="1581482742096" />
+    <state x="653" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1588475836822">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
-    <state x="653" y="349" key="com.intellij.ide.util.TipDialog/0.23.1920.987@0.23.1920.987" timestamp="1581288477140" />
-    <state x="765" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581288674030">
+    <state x="653" y="349" key="com.intellij.ide.util.TipDialog/0.23.1920.987@0.23.1920.987" timestamp="1588475836822" />
+    <state x="765" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581478157211">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
-    <state x="765" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.987@0.23.1920.987" timestamp="1581288674030" />
+    <state x="765" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.987@0.23.1920.987" timestamp="1581478157211" />
+    <state x="647" y="315" key="git4idea.merge.GitPullDialog" timestamp="1588475867808">
+      <screen x="0" y="23" width="1920" height="987" />
+    </state>
+    <state x="647" y="315" key="git4idea.merge.GitPullDialog/0.23.1920.987@0.23.1920.987" timestamp="1588475867808" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -304,7 +355,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter_2/Q6.py</url>
-          <line>51</line>
+          <line>57</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -312,12 +363,30 @@
           <line>19</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter_1/Q1.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter_1/Q1.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Extra Questions/kaprekar_numbers.py</url>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Extra Questions/parking_lot.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
-      <configuration name="tests">
-        <watch expression="dups_removed" />
-        <watch expression="test_linked_list.head.next" />
+      <configuration name="PythonConfigurationType">
+        <watch expression="math.pow(10, r_digits)" />
       </configuration>
     </watches-manager>
   </component>
