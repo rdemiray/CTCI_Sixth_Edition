@@ -1,3 +1,12 @@
+"""
+Do the following if you get error on MAC (This is kind of a pre-requisite to run PyEnchant module on MAC)
+ImportError: The 'enchant' C library was not found and maybe needs to be installed.
+
+
+brew update
+brew install enchant
+
+"""
 from itertools import permutations
 import enchant
 import sys
@@ -30,6 +39,10 @@ def find_eng_words(letters, word_length):
 
 
 if __name__ == "__main__":
+    """
+    E.g. "python3 name_of_the_file.py ARG1 ARG2", if you'd like to run the file directly from command line
+    python3 word_game_solver.py "LONLEP" 3
+    """
     find_eng_words(sys.argv[1], sys.argv[2])
 
 
