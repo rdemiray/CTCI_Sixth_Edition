@@ -1,1 +1,1 @@
-enchant==0.0.1
+pyenchant==3.2.2
