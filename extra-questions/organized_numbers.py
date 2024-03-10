@@ -1,7 +1,7 @@
 import unittest
 
 
-def is_organized_number(number):
+def is_organized_number(number: int) -> bool:
     """
     Checks if the given number is organized number
     40585 = 4! + 0! + 5! + 8! + 5!
@@ -27,7 +27,7 @@ def is_organized_number(number):
         return False
 
 
-def factorial(number):
+def factorial(number: int) -> int:
     """
 
     :param number:
@@ -104,6 +104,7 @@ class TestClass(unittest.TestCase):
                 item[1],
                 msg=f"{item[0]} is an organized number? {item[1]}")
 
+    def test_method_2(self):
         # Unit test for the method "find_all_organized_numbers()"
         for item in self.test_data_2:
             self.assertEqual(
@@ -111,9 +112,14 @@ class TestClass(unittest.TestCase):
                 item[1],
                 msg="Assertion failed")
 
+    def test_method_3(self):
         # Unit tests for the method "factorial()"
         for item in self.test_data_3:
             self.assertEqual(
                 factorial(item[0]),
                 item[1],
                 msg=f"{item[0]}! is not equal to {item[1]}!")
+
+
+if __name__ == "__main__":
+    unittest.main()

@@ -1,6 +1,7 @@
 # Python program to implement an Optimized
 # Solution to check Deficient Number
 import math
+import unittest
 
 
 # Function to calculate sum of divisors
@@ -33,4 +34,15 @@ def is_deficient(n):
         return False
 
 
-print(is_deficient(4))
+class TestClass(unittest.TestCase):
+    test_data = [
+        (4, True)
+        ]
+
+    def test_method(self):
+        for data in self.test_data:
+            self.assertEqual(is_deficient(data[0]), data[1])
+
+
+if __name__ == "__main__":
+    unittest.main()

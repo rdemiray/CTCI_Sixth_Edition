@@ -28,6 +28,7 @@ while True:
 
     print("Now enter how many hours you have stayed in the parking lot ")
     num_of_hours = int(input())
+    cost = 0
 
     if vehicle_code == 1:
         # Motorcycle
