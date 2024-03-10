@@ -56,3 +56,7 @@ class TestClass(unittest.TestCase):
         for data in self.test_data:
             self.assertEqual(binary_to_decimal(data[0]), data[1])
             self.assertEqual(binary_to_decimal_2(data[0]), data[1])
+
+
+if __name__ == "__main__":
+    unittest.main()
