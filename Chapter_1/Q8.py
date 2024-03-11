@@ -120,7 +120,6 @@ class TestClass(unittest.TestCase):
             [21, 0, 23, 24, 0]
     ]
 
-
     def test_method_zeroize_row_1(self):
         test_data = copy.deepcopy(self.test_data_1)
         self.assertEqual(
