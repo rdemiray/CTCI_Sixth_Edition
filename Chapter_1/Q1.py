@@ -21,7 +21,7 @@ def is_unique_1(given_string):
 def is_unique_2(given_string):
     """
     Assumes that  lowercase and uppercase letters are SAME
-    E.g. Returns False for "AaBbCc"
+    E.g. Returns False for "AaBbCc" because it will be "lowered" to "aabbcc"
     """
 
     lowered_string = given_string.lower()
@@ -94,6 +94,3 @@ class Test(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-
-

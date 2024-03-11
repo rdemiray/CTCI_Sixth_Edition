@@ -8,6 +8,7 @@ def urlify(url_string, length):
     :param length:
     :return:
     """
+    # We will build/reconstruct a new string
     urlifyied_string = ""
 
     for index in range(length):

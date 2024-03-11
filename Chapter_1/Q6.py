@@ -15,7 +15,7 @@ def compress_string(given_string):
 
     for i in range(len(given_string)):
 
-        if i+1 < len(given_string):
+        if i < len(given_string) - 1:
             if given_string[i] == given_string[i + 1]:
                 counter += 1
             else:
