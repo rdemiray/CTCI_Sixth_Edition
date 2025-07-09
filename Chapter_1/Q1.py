@@ -52,6 +52,14 @@ def is_unique_3(given_string):
 
     return True
 
+def is_unique_4(input_string):
+    seen = set()
+    for char in input_string:
+        if char in seen:
+            return False
+        seen.add(char)
+    return True
+
 
 class Test(unittest.TestCase):
     test_data_true_1 = ['abcd', 's4fad', '', "AaBbCc"]
@@ -59,6 +67,15 @@ class Test(unittest.TestCase):
 
     test_data_true_2 = ['abcd', 's4fad', '']
     test_data_false_2 = ['23ds2', 'hb 627jh=j ()', "AaBbCc"]
+
+    def test_whether_unique_4(self):
+        # True check
+        for item in self.test_data_true_1:
+            self.assertTrue(is_unique_4(item))
+
+        # False check
+        for item in self.test_data_false_1:
+            self.assertFalse(is_unique_4(item))
 
     def test_whether_unique_3(self):
         # True check
